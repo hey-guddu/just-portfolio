@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Kumar Behera | Fullstack Web Developer</title>
+    <meta name="description"
+        content="Portfolio of a passionate Computer Science student and Software Engineer building real-world systems.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <a href="#hero" class="logo">
+                <span>&lt;/&gt;</span> Aditya
+            </a>
+            <button class="menu-toggle" aria-label="Toggle Navigation">
+                ☰
+            </button>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text reveal">
+                    <span class="greeting">Hi, I'm</span>
+                    <h1 class="hero-name">Aditya Kumar Behera</h1>
+                    <h2 class="hero-role">Fullstack Web Developer</h2>
+                    <p>I'm a Computer Science student and Aspiring Software Engineer who loves solving complex problems.
+                        I build clean, efficient, and well-architected applications.</p>
+                    <div class="cta-group">
+                        <a href="assets/resume.pdf" class="btn btn-primary" target="_blank">My Resume</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <img src="assets/images/image.png" alt="Portrait of Alex" class="hero-raw-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">About Me</h2>
+                <div class="about-grid reveal">
+                    <div class="about-text">
+                        <p>I didn't just stumble into coding; I walked into it with a purpose. For me, computer science
+                            isn't just about syntax—it's about thinking clearly.</p>
+                        <p>Currently pursuing my degree in Computer Science, I spend my days (and often nights) bridging
+                            the gap between theoretical algorithms and real-world utility. I believe that software
+                            should be robust, scalable, and above all, helpful.</p>
+                        <p>When I'm not debugging, I'm likely reading about system architecture, exploring open source,
+                            or optimizing my own learning workflow.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <h3>🎓 Bachelor's Degree</h3>
+                            <p>B.Tech Computer Science</p>
+                            <p class="stat-detail">DRIEMS University, 2022-2026</p>
+                        </div>
+                        <div class="stat-card" style="margin-top: 1rem;">
+                            <h3>📜 High School</h3>
+                            <p>12th in Science</p>
+                            <p class="stat-detail">ELISA, 2020-2022</p>
+                        </div>
+                        <!-- <div class="stat-card" style="margin-top: 1rem;">
+                            <h3>🏆 Certification</h3>
+                            <p>Full Stack Web Development</p>
+                            <p class="stat-detail">Online Bootcamp, 2023</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Technical Arsenal</h2>
+                <div class="skills-grid reveal">
+                    <div class="skill-category">
+                        <h4>Programming Languages</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Web Technologies</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">HTML5 & CSS3</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">REST APIs</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Databases</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Tools</h4>
+                        <div class="skill-list">
+                            <span class="skill-tag">Git & GitHub</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Selected Projects</h2>
+                <div class="projects-grid reveal">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <img src="assets/images/project1.png" alt="Analytics Dashboard" class="project-img">
+                        <div class="project-content">
+                            <h3>Fullstack To-Do List</h3>
+                            <div class="project-tech">
+                                <span class="tech-pill">Node.JS</span>
+                                <span class="tech-pill">Express.JS</span>
+                                <span class="tech-pill">MongoDB</span>
+                                <span class="tech-pill">React.JS</span>
+                            </div>
+                            <p>A high-performance analytics dashboard for visualizing real-time data streams. Optimized
+                                for large datasets with virtualized lists.</p>
+                            <br>
+                            <a href="#" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View
+                                Code</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <img src="assets/images/project2.png" alt="Mobile App" class="project-img">
+                        <div class="project-content">
+                            <h3>Markdown to PDF Converter</h3>
+                            <div class="project-tech">
+                                <span class="tech-pill">React.JS</span>
+                                <span class="tech-pill">Express.JS</span>
+                                <span class="tech-pill">Node.JS</span>
+                                <span class="tech-pill">MongoDB</span>
+                            </div>
+                            <p>A mobile application for nature enthusiasts to track and share hiking trails. Features
+                                offline support and social sharing.</p>
+                            <br>
+                            <a href="#" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View
+                                Code</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Let's Connect</h2>
+                <div class="contact-container reveal">
+                    <div class="contact-info">
+                        <h3>Start a conversation</h3>
+                        <p>I'm currently open to internships and junior engineering roles. If you have a question or
+                            just want to say hi, I'll try my best to get back to you!</p>
+
+                        <div class="contact-links">
+                            <a href="mailto:alex@example.com" class="contact-link">
+                                <span>📧</span> adityakumarbehera946@example.com
+                            </a>
+                            <a href="#" class="contact-link">
+                                <span>💼</span> LinkedIn
+                            </a>
+                            <a href="#" class="contact-link">
+                                <span>🐙</span> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="54e82584-fe1a-4503-9d75-41a22f83726c">
+                            <input type="text" name="name" placeholder="Name" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input type="number" name="number" placeholder="Phone" required>
+                            <textarea name="message" placeholder="Message" required></textarea>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024. Built with ❤️ by Aditya Kumar Behera.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
